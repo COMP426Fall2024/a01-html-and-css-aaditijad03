@@ -1,0 +1,244 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBody {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f8f6e7; 
+    color: #333;
+
+}
+
+.chickfilaBody {
+    background-image: url('images/waterdot.jpg');
+    background-repeat: repeat;
+    background-size: 100px 100px;
+}
+
+.popeyesBody {
+    background-color: #f7f7f7; 
+    background-image: url('images/dots.jpg');
+    background-size: 300px 300px;
+    color: #333;
+}
+
+header, footer {
+    background-color: rgb(248, 143, 81); 
+    color: #fff; 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding: 0px;
+    width: 100%;
+    background-color: #fb8f4c;
+    top: 0; 
+    left: 0; 
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 25px;  
+} 
+nav a {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #fff; 
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav a:hover {
+    text-decoration: underline; 
+}
+
+body h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff; 
+}
+
+main img {
+    display: block;
+    margin: 0 auto; 
+}
+
+main button {
+    margin-top: 20px;
+    background-color: #f7924f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+main h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+main button:hover {
+    background-color: #e65c00;
+    transform: translateY(-3px); 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.image-container img {
+    max-width: 40%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+select {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+label {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    line-height: 1.6; 
+    color: #333; 
+    margin: 0 0 20px; 
+    text-align: left;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+#line-image {
+    max-width: 40%; 
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#nuggets-image {
+    max-width: 30%; 
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#competitors-image {
+    max-width: 30%; 
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#both-sandwiches-image {
+    max-width: 35%; 
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cfa-logo-image {
+    max-width: 35%; 
+    height: auto; 
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 50px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.cfa-heading {
+    font-family: 'Comic Sans MS', cursive;
+    color: #c21e1e;
+    text-align: left;
+    padding-left: 110px;
+}
+#popeyes-logo-image {
+    max-width: 25%;
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border-radius: 8px;
+}
+
+.popeyes-heading {
+    font-family: 'Georgia', serif;
+    color: #e77d0b;
+    text-align: left;
+    padding-left: 110px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.cfaTbl {
+    background-color: #e22424;
+    color: white;
+    font-weight: bold;
+}
+.popTbl {
+    background-color: #f9960a;
+    color: white;
+    font-weight: bold; 
+}
+
+td {
+    background-color: #fff;
+    color: #333;
+}
+

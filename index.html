@@ -1,6 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title> The Mythological 2019 Chicken Sandwich Wars</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> The Mythological Chicken Sandwich Wars</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
+    <body class="mainBody">
+        <header>
+            <!-- <h2> Mythological Chicken Sandwich Wars: </h2> -->
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="chickfila.html"> Chick-fil-a</a></li>
+                    <li><a href="popeyes.html"> Popeyes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h3> Welcome to the Chicken Sandwich Wars!</h3>
+            <p> 
+                A culinary battle started in the fast-food world in 2019, when fans of Chick-fil-a and Popeyes were at odds over who had the better chicken sandwich.
+                Spicy or Mild? Pickle or No pickles? Everyone had an opinion...   
+            </p>
+            <button onclick="location.href='fullstory.html'"> Read the full story</button>
+            <div class="image-container"> 
+                <img src="images/chickfilasandwich.webp" alt="Popeyes chicken sandwich" title="Chick-fil-a Sandwich">
+                <img src="images/popeyeschickensandwich.webp" alt = "Chick-fil-a chicken sandwich" title="Popeyes Sandwich">
+            </div>
+            <label for="sandwich-options">Choose your favorite sandwich:</label>
+            <select id="sandwich-options">
+                <option value="chickfila">Chick-fil-a Sandwich</option>
+                <option value="popeyes">Popeyes Sandwich</option>
+            </select>
+        
+        </main>
+    </body>
 </html>
